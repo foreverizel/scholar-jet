@@ -6,7 +6,7 @@ This is a submission for Scholar Jet's Akmai Creative Resume submission.
 ### npm install
 ### npm run watch
 
-**Tech used:** HTML, CSS, SASS
+**Tech used:** HTML, SASS
 
 
 

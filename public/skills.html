@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <side id="sideMenu">
+    <nav>
+      <a href="index.html">
+        <span><i class="fas fa-briefcase"></i></span>
+        Career History
+      </a>
+      <a href="skills.html">
+        <span><i class="fas fa-atom"></i></span>
+        Skills
+      </a>
+      <a href="projects.html">
+        <span><i class="fas fa-award"></i></span>
+        Accomplishments
+      </a>
+      <a href="resumerizel.pdf" <span><i class="fas fa-sticky-note"></i></span>
+        Traditional Resume
+      </a>
+      <a href="aboutme.html">
+        <span><i class="fas fa-user"></i></span>
+        Who Am I?
+      </a>
+      <a href="hobby.html">
+        <span><i class="fas fa-camera"></i></span>
+        Hobby: Photos
+      </a>
+    </nav>
+  </side>
+  <section class="venn-diagram">
+    <dl class="skills-diagram">
+      <dt class="skill-5">Express</dt>
+      <dd>5</dd>
+      <dt class="skill-10">SQL</dt>
+      <dd>10</dd>
+      <dt class="skill-3">Java</dt>
+      <dd>3</dd>
+      <dt class="skill-8">MongoDB</dt>
+      <dd>8</dd>
+      <dt class="skill-4">React</dt>
+      <dd>4</dd>
+      <dt class="skill-6">HTML5</dt>
+      <dd>6</dd>
+      <dt class="skill-7">CSS3</dt>
+      <dd>7</dd>
+      <dt class="skill-9">Node</dt>
+      <dd>9</dd>
+      <dt class="skill-2">AWS</dt>
+      <dd>2</dd>
+    </dl>
+  </section>
+  <section>
+    <pre><code>
+      axios.post('/skills', {
+        Passion: 'The backend particularly construction RestAPIs',
+        Recent Fave Project: 'Creating a dynamoDB'
+      })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+   </code></pre>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+@import "variables";
+@import "skills";
+@import "hobby";
+@import "aboutme";
+
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+   background: $lightGrey;
+}
+#imgCard{
+  margin-left: 200px;
+}
+#sideMenu {
+  background: #00cccc;
+  width: 280px;
+  padding-top: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  nav {
+    padding-top:30px;
+
+    a {
+      display: block;
+      color: $darkGrey;
+      text-decoration: none;
+      font-weight:300;
+      padding: 15px 30px;
+      transition: all 0.3s ease-in-out;
+
+      &:hover{
+        background: $darkPurple;
+        border-left: 5px solid $neonGreen;
+        padding: 15px 30px 15px 25px;
+      }
+
+      .fas {
+        color: $darkGrey;
+        font-size: 1.4rem;
+        margin-right: 0.8rem;
+        display: inline-block;
+        width: 30%;
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+}
+
+header {
+  margin-left: 280px;
+  padding: 20px;
+  background: white;
+
+  .search-area{
+    .fa {
+      color: $darkGrey;
+    }
+
+    input[type="text"] {
+      background: transparent;
+      border: none;
+      font-size: 1.3rem;
+      color: $neonGreen;
+      padding: 10px;
+      font-weight: 100;
+      width: 500px;
+    }
+    
+  }
+}
+
+#content-area {
+  margin-left: 280px;
+  padding: 15px;
+  .heading {
+    h1 {
+      color: #6A5ACD;
+      font-size:1.3rem;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+    p{
+      color: #1b1b1b;
+      font-size: 0.8rem;
+      margin-bottom: 40px;
+    }
+  }
+    .cards{
+      overflow: auto;
+      margin-bottom: 30px;
+      .card{
+        background: #fff;
+        border-radius: 5px;
+        .user-img{
+          background-image: url("https://www.steamboston.com/wp-content/uploads/2018/10/rizel.jpg");
+          background-size: cover;
+          -o-background-size: cover;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          width:115px;
+          height: 115px;
+          border-radius: 50%;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin: 0 auto;
+        }
+        .user-name{
+          font-size: 1rem;
+          color: #6A5ACD;
+          display: block;
+          text-align: center;
+        }
+        .user-title{
+          display: block;
+          font-size: 0.8rem;
+          text-align: center;
+        }
+        .education {
+          font-size: 0.8rem;
+          display: inline-block;
+          color: grey;
+        }
+        .schools {
+          font-size: 0.8rem;
+         margin-left: 45px;
+        }
+        h6{
+          font-size: 0.8rem;
+        }
+        .date{
+          font-size: 1.3rem;
+          display: block;
+          border-left: 5px solid #00cccc;
+          position: relative;
+          left: -20px;
+          padding: 5px 40px;
+          margin: 20px 0;
+        }
+        .job-type{
+          background: 	#6A5ACD;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          font-size: 0.6rem;
+          color: white;
+          padding: 5px;
+          display: inline-block;
+          text-align: center;
+          vertical-align: middle;
+        }
+        .location{
+          font-size: 0.8rem;
+          font-weight: 300;
+          display: block;
+          margin-bottom: 0.5rem;
+        }
+        .position{
+          font-size: 0.8rem;
+          font-weight: 500;
+          display: block;
+          margin-bottom: 0.5rem;
+        }
+        .quote{
+          display: block;
+          font-size: 0.8rem;
+          font-weight: 300;
+          color: 	#606060;
+          margin-bottom: 0.5rem;
+          font-style: italic;
+        }
+      }
+    }
+  }
+  .col-md-4 {
+    width: 33.33333%;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+    background: white;
+    margin-right: 30px;
+    height: 200px;
+  }
+  
+  .col-md-3 {
+    width: 25%;
+    padding: 0 15px;
+    display: inline-block;
+    background: white;
+    float: left;
+  }
+  
+  .col-md-9 {
+    width: 75%;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+  }
+
+  .col-md-10 {
+    width: 83.33%;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+  }
+
+  table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #00cccc;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+       0px 10px 20px rgba(0,0,0,0.05),
+       0px 20px 20px rgba(0,0,0,0.05),
+       0px 30px 20px rgba(0,0,0,0.05);
+    tr {
+       &:hover {
+        background: #f4f4f4;
+        
+        td {
+          color: #555;
+        }
+      }
+    }
+    th, td {
+      color: #999;
+      border: 1px solid #eee;
+      padding: 12px 35px;
+      border-collapse: collapse;
+    }
+    th {
+      background: #00cccc;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 12px;
+      &.last {
+        border-right: none;
+      }
+    }
+  }
+
+
+  

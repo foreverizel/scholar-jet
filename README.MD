@@ -2,9 +2,9 @@
 This is a submission for Scholar Jet's Akmai Creative Resume submission. 
 
 ## How to run
-# git clone
-# npm install
-# npm run watch
+### git clone
+### npm install
+### npm run watch
 
 **Tech used:** HTML, CSS, SASS
 

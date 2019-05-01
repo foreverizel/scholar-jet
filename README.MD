@@ -5,7 +5,7 @@ This is a submission for Scholar Jet's Akmai Creative Resume submission.
 ### git clone
 ### npm install
 ### npm run watch
-
+It should be running on localhost:3000
 **Tech used:** HTML, SASS
 
 # Social
